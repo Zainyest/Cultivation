@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "cultivation",
+  "version": "${version}",
+
+  "name": "Cultivation Mod",
+  "description": "A mod about improving the self through magical means, cultivation style!",
+  "authors": [
+    "Zainyest"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/cultivation/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.zainyest.cultivation.Cultivation"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
